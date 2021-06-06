@@ -1,6 +1,5 @@
 # Nano R1S R2S R4S x86 Openwrt 
  
-
 ### Download Link：
 https://github.com/ShieldbladeNet/Nano-Openwrt/releases  
 (Files do not need to be decompressed, you can directly use the flashing tool to flash in img.gz)
@@ -12,11 +11,11 @@ If the network status has been unrecognized (more than 5 minutes after power-on)
 
 ### Online upgrade method in the terminal:
 ```bash
-wget -qO- https://github.com/ShieldbladeNet/Nano-Openwrt/raw/master/scripts/autoupdate.sh | sh
+wget -qO- https://github.com/ShieldbladeNet/Nano-Openwrt/raw/main/scripts/autoupdate.sh | sh
 ```
 slim Version
 ```bash
-wget -qO- https://github.com/ShieldbladeNet/Nano-Openwrt/raw/master/scripts/autoupdate.sh | ver=-slim sh
+wget -qO- https://github.com/ShieldbladeNet/Nano-Openwrt/raw/main/scripts/autoupdate.sh | ver=-slim sh
 ```
 (Script provided by Gary Lau, thank you very much!)
 
@@ -36,13 +35,6 @@ After completion, enter Actions, click Build on the left, and click Run workflow
 <img src="https://user-images.githubusercontent.com/56048681/114531768-c7648c80-9c7e-11eb-8d72-fe38f9df960d.png" width="250" />
 
 Then click Run to get the firmware you need
-
-### Release Notes:
-
-https://github.com/ShieldbladeNet/Nano-Openwrt/blob/master/CHANGELOG.md
-
-#### This firmware NAT benchmark performance test:
-<img src="https://github.com/ShieldbladeNet/Nano-Openwrt/raw/main/assets/NAT.jpg" width="450" ​​/>
 
 #### Firmware source code:
 https://github.com/immortalwrt/immortalwrt
