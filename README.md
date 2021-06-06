@@ -42,7 +42,7 @@ Then click Run to get the firmware you need
 https://github.com/ShieldbladeNet/Nano-Openwrt/blob/master/CHANGELOG.md
 
 #### This firmware NAT benchmark performance test:
-<img src="https://raw.githubusercontent.com/ShieldbladeNet/Nano-Openwrt/master/assets/NAT.jpg" width="450" ​​/>
+<img src="https://raw.githubusercontent.com/ShieldbladeNet/Nano-Openwrt/main/assets/NAT.jpg" width="450" ​​/>
 
 #### Firmware source code:
 https://github.com/immortalwrt/immortalwrt
