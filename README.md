@@ -28,12 +28,17 @@ wget -qO- https://github.com/ShieldbladeNet/Nano-Openwrt/raw/master/scripts/auto
 
 ### Generate the firmware you need in 1 minute
 Because this project is pre-compiled with Image builder, it only takes 1-3 minutes to generate the firmware. If you are interested in customizing the firmware, you can Fork this project and edit the config.seed file corresponding to the device, such as r2s.config.seed, and delete it (delete the entire line) ) Unneeded luci app software package configuration line, add the software you need, the list of available software can be obtained at the output of the github actions component, for example
+
 <img src="https://user-images.githubusercontent.com/56048681/114531174-3beafb80-9c7e-11eb-8bcc-b098c3b1cee8.png" width="250" />
+
 After completion, enter Actions, click Build on the left, and click Run workflow on the right to enter the device name (r2s/r4s/r1s/r1s-h3/r1p)
+
 <img src="https://user-images.githubusercontent.com/56048681/114531768-c7648c80-9c7e-11eb-8d72-fe38f9df960d.png" width="250" />
+
 Then click Run to get the firmware you need
 
 ### Release Notes:
+
 https://github.com/ShieldbladeNet/Nano-Openwrt/blob/master/CHANGELOG.md
 
 #### This firmware NAT benchmark performance test:
